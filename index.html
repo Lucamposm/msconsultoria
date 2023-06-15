@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assessoria Contábil</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <style>
+    
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0E2C47;
+      color: #FDB813;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    .highlight {
+      color: #FDB813;
+    }
+    .parallax {
+      background-image: url('./img/baner\ ms.png');
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+    }
+
+    .section {
+      padding: 60px 0;
+    }
+
+    .brand {
+      font-weight: bold;
+    }
+
+    .logo {
+      width: 60px;
+      height: 60px;
+      margin-right: 5px;
+    }
+
+    .parallax {
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 500px;
+      display: flex;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      align-items: center;
+      justify-content: center;
+      
+    }
+   
+
+    .service {
+      background-color: #FDB813;
+      color: #0E2C47;
+      padding: 30px;
+      margin-bottom: 30px;
+      text-align: center;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+
+   
+
+    .service:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .service-icons {
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .service-icon {
+      font-size: 3.5rem;
+    }
+
+    .service h3 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .service p {
+      font-size: 1rem;
+      height: 80px;
+      overflow: hidden;
+    }
+
+    .service a {
+      font-size: 0.9rem;
+      color: #0E2C47;
+      text-decoration: underline;
+    }
+
+    .floating-wa {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: #fff;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      z-index: 999;
+      transition: all 0.3s ease;
+    }
+
+    .floating-wa:hover {
+      background-color: #128C7E;
+      transform: scale(1.1);
+    }
+
+    .social-icons-footer {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .social-icons-footer a {
+      font-size: 1.5rem;
+      color: #FDB813;
+      margin: 0 5px;
+    }
+
+    /* Estilos adicionados para Sobre */
+
+    #sobre {
+      background-color: #0E2C47;
+    }
+
+    #sobre h2 {
+      color: #FDB813;
+      text-align: justify;
+    }
+
+    #sobre .text-white {
+      color: #FDB813 !important;
+    }
+
+    #sobre .col-md-6 img {
+      width: 50%;
+      height: auto;
+    }
+
+    #sobre p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand brand" href="#">
+        <img src="./img/Logo_Contabilidade__2_-removebg-preview.png" alt="Logo" class="logo">
+        Assessoria Contábil
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#inicio">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicos">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Parallax -->
+  <!-- Página inicial com efeito de paralaxe -->
+  
+ 
+<section id="inicio" class="parallax">
+    
+   
+    <div class="container text-center text-white font-awesome">
+          
+         
+    <h2 class="highlight">Seu parceiro confiável para serviços contábeis</h2>
+    
+        </div>
+      </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="section">
+    <div class="container">
+      <h2 class="text-center">Serviços</h2>
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="service">
+            <div class="service-icons">
+              <i class="fas fa-money-bill-wave service-icon"></i>
+            </div>
+            <h3>Serviço 1</h3>
+            <p class="service-description">Descrição do Serviço 1 que cabe até 200 caracteres. <a href="#">Saiba mais</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service">
+            <div class="service-icons">
+              <i class="fas fa-chart-pie service-icon"></i>
+            </div>
+            <h3>Serviço 2</h3>
+            <p class="service-description">Descrição do Serviço 2 que cabe até 200 caracteres. <a href="#">Saiba mais</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service">
+            <div class="service-icons">
+              <i class="fas fa-balance-scale service-icon"></i>
+            </div>
+            <h3>Serviço 3</h3>
+            <p class="service-description">Descrição do Serviço 3 que cabe até 200 caracteres. <a href="#">Saiba mais</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service">
+            <div class="service-icons">
+              <i class="fas fa-file-invoice-dollar service-icon"></i>
+            </div>
+            <h3>Serviço 4</h3>
+            <p class="service-description">Descrição do Serviço 4 que cabe até 200 caracteres. <a href="#">Saiba mais</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service">
+            <div class="service-icons">
+              <i class="fas fa-money-check-alt service-icon"></i>
+            </div>
+            <h3>Serviço 5</h3>
+            <p class="service-description">Descrição do Serviço 5 que cabe até 200 caracteres. <a href="#">Saiba mais</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service">
+            <div class="service-icons">
+              <i class="fas fa-file-alt service-icon"></i>
+            </div>
+            <h3>Serviço 6</h3>
+            <p class="service-description">Descrição do Serviço 6 que cabe até 200 caracteres. <a href="#">Saiba mais</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+<section id="sobre" class="section">
+    <div class="parallax">
+      
+     
+  <div class="container">
+        <div class="row">
+          
+         
+  <div class="col-md-6">
+            
+           
+  <div class="sobre-content d-flex align-items-center justify-content-center">
+              <h2 class="text-center text-white">Sobre</h2>
+            
+            
+  </div>
+          </div>
+          
+         
+  <div class="col-md-6">
+            
+            
+  
+           
+  <div class="sobre-content">
+              
+             
+  <p class="text-white">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec libero sem. Phasellus elementum leo
+                non mi rhoncus, ac tincidunt sapien bibendum. Sed interdum dolor in ligula facilisis, sed facilisis elit
+                condimentum. Suspendisse at ligula ligula. Curabitur blandit massa eu lectus fringilla dignissim. Sed
+                et mauris non justo cursus mattis in vel odio. Proin pulvinar mauris et felis dictum, non blandit
+                lectus facilisis. Nullam malesuada rutrum massa a iaculis. Morbi eu massa orci. Curabitur ut est vel
+                sem feugiat elementum sed et felis. Curabitur id ullamcorper ex. Proin euismod urna in quam lobortis,
+                quis malesuada purus bibendum. Sed pellentesque efficitur luctus. Aliquam pulvinar augue nec ipsum
+                rutrum, et suscipit lacus rhoncus. In et efficitur nulla. Sed et ultrices urna.
+              
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec libero sem. Phasellus elementum leo
+                non mi rhoncus, ac tincidunt sapien bibendum. Sed interdum dolor in ligula facilisis, sed facilisis elit
+                condimentum. Suspendisse at ligula ligula. Curabitur blandit massa eu lectus fringilla dignissim. Sed
+                et mauris non justo cursus mattis in vel odio. Proin pulvinar mauris et felis dictum, non blandit
+                lectus facilisis. Nullam malesuada rutrum massa a iaculis. Morbi eu massa orci.
+  
+  
+               
+  </p>
+            
+           
+  </div>
+          </div>
+        
+       
+  </div>
+      </div>
+    
+   
+  </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="section">
+    <div class="container">
+      <h2 class="text-center">Contato</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p><i class="fas fa-phone"></i> Telefone: (11) 1234-5678</p>
+          <p><i class="far fa-envelope"></i> Email: contato@assessoriacontabil.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Endereço: Rua da Assessoria, 123 - São Paulo/SP</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Botão Flutuante do WhatsApp -->
+  <a href="https://api.whatsapp.com/send?phone=551234567890" target="_blank" class="floating-wa">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-center">
+    <div class="container">
+      <div class="social-icons-footer">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+      <p>Todos os direitos reservados &copy; 2023 Assessoria Contábil</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
